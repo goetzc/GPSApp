@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GPSAppActivity!</string>
+    <string name="app_name">GPS Triangulator</string>
+    <string name="gpsFix">GPS Fix:</string>
+    <string name="gpsFixValue">Esperando...</string>
+    <string name="latitude">Latitud:</string>
+    <string name="longitude">Longitud:</string>
+    <string name="altitude">Altitud:</string>
+    <string name="saveLocation">Guardar Ubicación</string>
+    <string name="selectTarget">Elegir Destino</string>
+    <string name="target">Destino</string>
+    <string name="distance">Distancia</string>
+    <string name="toast_signal_acquired">GPS Conectado!</string>
+    <string name="toast_target_selected">Destino Elegido. Pantalla Principal Actualizada</string>
+    <string name="label_name">Nombre:</string>
+    <string name="label_latitude">Latitud:</string>
+   <string name="label_longitude">Longitud:</string>
+   <string name="label_altitude">Altitud:</string>
+   <string name="menuitem_edit_contact">Editar Destino</string>
+   <string name="menuitem_select_target">Elegir Destino</string>
+   <string name="menuitem_delete_contact">Borrar Ubicacion</string>
+   <string name="confirmTitle">Esta Seguro?</string>
+   <string name="confirmMessage">
+      Esto Borrara Permanentemente la Ubicacion</string>
+   <string name="errorButton">OK</string>
+   <string name="errorTitle">Se Necesita Un Nombre Para la Ubicacion</string>
+   <string name="errorMessage">Debe Ingresar un Nombre</string>
+   <string name="button_cancel">Cancel</string>
+   <string name="button_delete">Borrar</string>
+   <string name="button_save_location">Guardar Ubicacion</string>
+   <string name="menuitem_add_contact">Agregar Ubicación</string>
+   <string name="hint_name">Nombre</string>
+   <string name="hint_latitude">Latitud</string>
+   <string name="hint_longitude">Longitud</string>
+   <string name="hint_altitude">Altitud</string>
+
+</resources>

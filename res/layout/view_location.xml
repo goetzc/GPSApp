@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+   android:layout_width="match_parent" 
+   android:layout_height="wrap_content" android:layout_weight="1">
+   <TableLayout android:layout_width="match_parent" 
+      android:layout_height="wrap_content"
+      android:stretchColumns="1" android:layout_margin="5dp">
+      <TableRow android:id="@+id/nameTableRow"
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/nameLabelTextView" 
+            style="@style/ContactLabelTextView"
+            android:text="@string/label_name"></TextView>
+         <TextView android:id="@+id/nameTextView" 
+            style="@style/ContactTextView"></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/latitudeTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/latitudeLabelTextView" 
+            style="@style/ContactLabelTextView"
+            android:text="@string/label_latitude"></TextView>
+         <TextView android:id="@+id/latitudeTextView"
+            style="@style/ContactTextView"></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/longitudeTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/longitudeLabelTextView" 
+            style="@style/ContactLabelTextView"
+            android:text="@string/label_longitude"></TextView>
+         <TextView android:id="@+id/longitudeTextView"
+            style="@style/ContactTextView"></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/altitudeTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/altitudeLabelTextView" 
+            style="@style/ContactLabelTextView"
+            android:text="@string/label_altitude"></TextView>
+         <TextView android:id="@+id/altitudeTextView"
+            style="@style/ContactTextView"></TextView>
+      </TableRow>
+      
+      <TableRow android:id="@+id/buttonTableRow"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:layout_marginTop="15dp">
+
+          <Button
+              android:id="@+id/buttonSelectTarget"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/menuitem_select_target" />
+          
+         
+      </TableRow>
+
+   </TableLayout>
+</ScrollView>
